@@ -1,4 +1,27 @@
 {
+
+  "cart": [],
+  "orders": [
+    {
+      "id": 4,
+      "image": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191044/odnh8k1jgpbcxirsiafq.jpg",
+      "title": "Zandu Swasthyaveda Joint Therapy Kit",
+      "img1": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191075/dyhfr2uxcwie7u1gr1hy.jpg",
+      "img2": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191088/xpukfubvxxrbos5uf9hr.jpg",
+      "img3": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191058/bfcxlvslkqoqbideut8q.jpg",
+      "Subtitle": "Zandu Pharmaceutical Works Ltd",
+      "form": "kit",
+      "price": "399",
+      "discount": "20",
+      "payment": "319",
+      "people": 144,
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      },
+      "category": "zandu"
+    }
+  ],
   "products": [
     {
       "id": 4,
@@ -209,28 +232,7 @@
       }
     }
   ],
-  "cart": [],
-  "orders": [
-    {
-      "id": 4,
-      "image": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191044/odnh8k1jgpbcxirsiafq.jpg",
-      "title": "Zandu Swasthyaveda Joint Therapy Kit",
-      "img1": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191075/dyhfr2uxcwie7u1gr1hy.jpg",
-      "img2": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191088/xpukfubvxxrbos5uf9hr.jpg",
-      "img3": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631191058/bfcxlvslkqoqbideut8q.jpg",
-      "Subtitle": "Zandu Pharmaceutical Works Ltd",
-      "form": "kit",
-      "price": "399",
-      "discount": "20",
-      "payment": "319",
-      "people": 144,
-      "rating": {
-        "rate": 3.3,
-        "count": 203
-      },
-      "category": "zandu"
-    }
-  ],
+
   "zandu": [
     {
       "id": 4,
@@ -439,6 +441,114 @@
         "rate": 4,
         "count": 29
       }
+    }
+  ],
+  "featuredBrands":[
+
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/93dac6224e1-web.jpg?dim=146x0&dpr=1&q=100",
+          "id":1
+       },
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg?dim=146x0&dpr=1&q=100",
+          "id":2
+       },
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/f7a36c06aed-web_Dettol.jpg?dim=146x0&dpr=1&q=100",
+          "id":3
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1&q=100",
+          "id":4
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/c72feb4bd7a-web_Huggies.jpg?dim=146x0&dpr=1&q=100",
+          "id":5
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/fee433dea2d-web.jpg?dim=146x0&dpr=1&q=100",
+          "id":6
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=1&q=100",
+          "id":7
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png?dim=146x0&dpr=1&q=100",
+          "id":8
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/7e5e174fdfb-OneTouchWeb.jpg?dim=146x0&dpr=1&q=100",
+          "id":9
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/db82ec1a424-web_Curatio.jpg?dim=146x0&dpr=1&q=100",
+          "id":10
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/7fdd90400a1-Featured-banner-Hansaplast-web.png?dim=146x0&dpr=1&q=100",
+          "id":11
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/93092a81f8d-Featured-banner_Digine.jpg?dim=146x0&dpr=1&q=100",
+          "id":12
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/6beabc4b6ed-web_Accusure.jpg?dim=146x0&dpr=1&q=100",
+          "id":13
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/0e3affec097-The_Natural_Wash_Dweb.jpg?dim=146x0&dpr=1&q=100",
+          "id":14
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/f8493a13be2-web_Pigeon.jpg?dim=146x0&dpr=1&q=100",
+          "id":15
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/0845572266f-Everherb.jpg?dim=146x0&dpr=1&q=100",
+          "id":16
+       }
+
+       ,
+       {
+          "image":"https://cms-contents.pharmeasy.in/carousel_item/22256dfc61d-web_Themomosco.jpg?dim=146x0&dpr=1&q=100",
+          "id":17
+       }
+
+
+  ],
+  "offersForYou":[
+    {
+        "image":"https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=60x0&dpr=1&q=100",
+        "title":"Flat 30% off + FREE Plus Membership Flat 30% off + FREE plus membership on purchase of Diabetic, Cardiac & Gastro medicines & health products.",
+        "code":"GRAND30"
     }
   ]
 }
