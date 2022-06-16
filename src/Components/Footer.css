@@ -11,13 +11,13 @@
     width: 80%;
     margin: auto;
     padding: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
 .fcupper{
 
-   border: 1px solid green;
+   /* border: 1px solid green; */
    color: gray;
    display: flex;
    justify-content: space-between;
@@ -27,4 +27,54 @@
 .fheading{
     font-weight: bolder;
     color: rgb(77, 77, 77);
+}
+
+.fclleft{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+
+.fclower{
+   display:"flex" ; 
+   justify-content:"space-between";
+}
+
+
+
+@media (max-width:800px){
+
+
+    .fcupper{
+
+
+        /* border: 1px solid green; */
+        color: gray;
+        display: grid;
+
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+
+        gap: 20px;
+        flex-direction: column;
+
+
+
+
+    }
+
+
+    
+.fcontainer{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
 }
