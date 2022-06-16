@@ -1,0 +1,30 @@
+
+
+.footerbox{
+
+   background-color:  #f4f7fb ;
+
+
+}
+
+.fcontainer{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+
+.fcupper{
+
+   border: 1px solid green;
+   color: gray;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.fheading{
+    font-weight: bolder;
+    color: rgb(77, 77, 77);
+}
