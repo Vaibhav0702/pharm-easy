@@ -281,15 +281,15 @@ const Navbar = () => {
 
 
             <div className="navbleft">
-            <Link to="/products"   >
-              <div>
-                Order Medicine
-              </div>
+              <Link to="/products"   >
+                <div>
+                  Order Medicine
+                </div>
               </Link>
               <Link to="/products"   >
-              <div>
-                Helth Products
-              </div>
+                <div>
+                  Helth Products
+                </div>
               </Link>
               <div>
                 Lab Tests
@@ -306,11 +306,20 @@ const Navbar = () => {
                 <p> Offers</p>
               </div>
 
-              <div style={{ display: "flex" }}  >
-                <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="" />
 
-                <p>Login / Signup</p>
-              </div>
+
+              <Link to="/login"   >
+
+
+                <div style={{ display: "flex" }}  >
+                  <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="" />
+
+                  <p>Login / Signup</p>
+                </div>
+
+
+              </Link>
+
 
 
 

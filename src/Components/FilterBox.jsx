@@ -1,5 +1,5 @@
 
-import { Box, Button, Text, VStack } from '@chakra-ui/react'
+import { Box, Button, Radio, RadioGroup, Stack, Text, VStack } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 
 import { Checkbox, CheckboxGroup } from '@chakra-ui/react'
@@ -28,6 +28,9 @@ const FilterBox = () => {
 
   const [categoryValue, setCategoryValue] = useState(searchParams.getAll("category") || []);
 
+  const [sortValue, setSortValue] = useState(searchParams.get("Sort") || "asc"); // set sort order
+
+
   const dispatch = useDispatch();
 
   const categoryHandler = (value) => {
@@ -38,13 +41,31 @@ const FilterBox = () => {
 
   }
 
+
+  const sortHandler = (value) => {
+
+    console.log("sort", value);
+    setSortValue(value);
+
+
+  }
+
+
+
+
+
+
+
+
   useEffect(() => {
 
-    if (categoryValue) {
-      setSearchParems({ category: categoryValue });
+    if (categoryValue || sortValue) {
+      setSearchParems({ category: categoryValue, sort: sortValue });
 
       let params = {
-        category: searchParams.getAll("category")
+        category: searchParams.getAll("category"),
+        _sort: "payment",
+        _order: `${sortValue}`
       };
 
 
@@ -55,7 +76,7 @@ const FilterBox = () => {
 
 
 
-  }, [categoryValue, setSearchParems, searchParams, dispatch])
+  }, [categoryValue, setSearchParems, searchParams, dispatch, sortValue])
 
 
 
@@ -77,18 +98,21 @@ const FilterBox = () => {
     <Box>
       <Box display={{ base: "none", md: "block" }} p="1rem 2rem" >
         <Text fontSize="2xl">Filters</Text>
-        <Text>Category</Text>
+        <Text margin={"10px"} fontWeight="bold"  >Category</Text>
         <CheckboxGroup colorScheme='green' defaultValue={categoryValue} onChange={categoryHandler} >
           <VStack alignItems={"baseline"}>
-            <Checkbox value="men's clothing">Men's Clothing</Checkbox>
-            <Checkbox value="women's clothing">Women's Clothing</Checkbox>
-            <Checkbox value='jewelery'>Jewelery</Checkbox>
-            <Checkbox value='electronics'>Electronics</Checkbox>
-            <Checkbox value='bags'>Bags</Checkbox>
+            <Checkbox value='health-care'>Health-Care</Checkbox>
             <Checkbox value='zandu'>Zandu</Checkbox>
-
           </VStack>
         </CheckboxGroup>
+        <Text  margin={"10px"} fontWeight="bold"  >Sort Order</Text>
+        <RadioGroup onChange={sortHandler} value={sortValue}>
+          <Stack direction='column'>
+            <Radio value='asc'>Ascending</Radio>
+            <Radio value='desc'>Descending</Radio>
+          </Stack>
+        </RadioGroup>
+
       </Box>
 
 
@@ -96,19 +120,18 @@ const FilterBox = () => {
       <Box display={{ base: "block", md: "none" }} p="0rem 2rem"     >
 
         <Menu closeOnSelect={false}>
-          <MenuButton as={Button} colorScheme='blue'>
-            MenuItem
+          <MenuButton as={Button} marginTop={"20px"} color={"white"} backgroundColor={"rgb(16,132,126)"}>
+            Filter-Box
           </MenuButton>
-          <MenuList minWidth='240px'  zIndex={1000} >
-            <MenuOptionGroup defaultValue='asc' title='Order' type='radio'>
+          <MenuList minWidth='240px' zIndex={1000} >
+            <MenuOptionGroup defaultValue={sortValue} title='Order' type='radio' onChange={sortHandler}          >
               <MenuItemOption value='asc'>Ascending</MenuItemOption>
               <MenuItemOption value='desc'>Descending</MenuItemOption>
             </MenuOptionGroup>
             <MenuDivider />
-            <MenuOptionGroup title='Country' type='checkbox'>
-              <MenuItemOption value='email'>Email</MenuItemOption>
-              <MenuItemOption value='phone'>Phone</MenuItemOption>
-              <MenuItemOption value='country'>Country</MenuItemOption>
+            <MenuOptionGroup title='Category' type='checkbox' defaultValue={categoryValue} onChange={categoryHandler}              >
+              <MenuItemOption value='zandu'>Zandu</MenuItemOption>
+              <MenuItemOption value='health-care'>Health-Care</MenuItemOption>
             </MenuOptionGroup>
           </MenuList>
         </Menu>

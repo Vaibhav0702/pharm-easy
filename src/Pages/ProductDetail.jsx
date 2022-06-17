@@ -27,10 +27,11 @@ import { MdLocalShipping } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { addProductCart, getSingleProduct } from '../Redux/Products/action';
+import Product from './Product';
 
 export default function ProductDetail() {
 
- 
+
 
 
   const navigate = useNavigate();
@@ -45,12 +46,12 @@ export default function ProductDetail() {
 
   console.log("Current Product", currentProduct)
 
-  const [image , setImage] =  useState(currentProduct.image)
+  const [image, setImage] = useState(currentProduct.image)
 
 
   useEffect(() => {
 
-   
+
 
     if (id) {
       dispatch(getSingleProduct(id, navigate));
@@ -88,7 +89,7 @@ export default function ProductDetail() {
             rounded={'md'}
             alt={'product image'}
             src={
-              image
+              image || currentProduct.image
             }
             fit={'contain'}
             align={'center'}
@@ -96,9 +97,9 @@ export default function ProductDetail() {
             h={{ base: '100%', sm: '400px', lg: '500px' }}
           />
 
-          <Box  padding="10px"  >
+          <Box padding="10px"  >
 
-            <Grid  templateColumns='repeat(3, 1fr)' gap={6}   >
+            <Grid templateColumns='repeat(3, 1fr)' gap={6}   >
               <Image
                 rounded={'md'}
                 alt={'product image'}
@@ -106,11 +107,11 @@ export default function ProductDetail() {
                   currentProduct.img1
                 }
                 fit={'contain'}
-                _hover={{border:"1px solid #10847e " , padding:'10px' }}
+                _hover={{ border: "1px solid #10847e ", padding: '10px' }}
                 w={'70%'}
 
-                onClick={()=>setImage(currentProduct.img1) }
-                // h={{ base: '100%', sm: '400px', lg: '500px' }}
+                onClick={() => setImage(currentProduct.img1)}
+              // h={{ base: '100%', sm: '400px', lg: '500px' }}
               />
 
 
@@ -124,9 +125,9 @@ export default function ProductDetail() {
                 align={'center'}
                 w={'70%'}
                 h={"70%"}
-                _hover={{border:"1px solid #10847e " , padding:'10px' }}
-                onClick={()=>setImage(currentProduct.img2) }
-                // h={{ base: '100%', sm: '400px', lg: '500px' }}
+                _hover={{ border: "1px solid #10847e ", padding: '10px' }}
+                onClick={() => setImage(currentProduct.img2)}
+              // h={{ base: '100%', sm: '400px', lg: '500px' }}
               />
 
 
@@ -141,9 +142,9 @@ export default function ProductDetail() {
                 align={'center'}
                 w={'70%'}
                 h={"70%"}
-                _hover={{border:"1px solid #10847e " , padding:'10px' }}
-                onClick={()=>setImage(currentProduct.img3) }
-                // h={{ base: '100%', sm: '400px', lg: '500px' }}
+                _hover={{ border: "1px solid #10847e ", padding: '10px' }}
+                onClick={() => setImage(currentProduct.img3)}
+              // h={{ base: '100%', sm: '400px', lg: '500px' }}
               />
 
             </Grid>

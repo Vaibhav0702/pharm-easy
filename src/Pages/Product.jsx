@@ -1,9 +1,10 @@
-import { Box, Center, Flex, Heading, Image, Stack, Text, useColorModeValue } from '@chakra-ui/react'
-import React, { useEffect } from 'react'
+import { Box, Flex, Heading, Image, Stack, Text, useColorModeValue } from '@chakra-ui/react'
+import React, { useEffect,} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useSearchParams } from 'react-router-dom'
 import FilterBox from '../Components/FilterBox'
 import ProductSimple from '../Components/ProductSimple'
+
 import { fetchData } from '../Redux/Products/action'
 
 
@@ -14,20 +15,26 @@ const Product = () => {
 
     const dispatch = useDispatch();
 
-    const [searchParams] = useSearchParams();
+    const [searchParams , setSearchParams] = useSearchParams();
+
+
 
     useEffect(() => {
 
         if (products?.length === 0) {
 
             let params = {
-                category: searchParams.getAll("category")
+                category: searchParams.getAll("category"),
+                _sort: "payment",
+                _order: searchParams.get("Sort"),
+               
+              
             };
 
-
+           
             dispatch(fetchData(params))
         }
-    }, [dispatch, products?.length, searchParams])
+    }, [dispatch, products?.length, searchParams , setSearchParams  ])
 
     // console.log("Products", products)
 
@@ -41,6 +48,7 @@ const Product = () => {
 
                     <FilterBox />
 
+
                 </Box>
                 <Box>
 
@@ -49,7 +57,7 @@ const Product = () => {
                     <Flex flexWrap="wrap" justifyContent="space-around" >
                         {
                             products.map(product => {
-                                return <ProductSimple key={product.id}  id={product.id}   image={product.image} title={product.title} price={product.price} payment={product.payment}   />
+                                return <ProductSimple key={product.id} id={product.id} image={product.image} title={product.title} price={product.price} payment={product.payment} discount={product.discount} />
                             })
                         }
                     </Flex>

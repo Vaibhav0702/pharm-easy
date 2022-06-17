@@ -42,6 +42,23 @@
       "category": "zandu"
     },
     {
+      "id": 11,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-2-1644823780.jpg?dim=320x320&dpr=1&q=100",
+      "title": "Johnson'S Baby Cotton Buds - 75 Stems/150 Swabs",
+      "img1": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-2-1644823780.jpg?dim=100x0&dpr=1&q=100",
+      "img2": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-6.1-1644823782.jpg?dim=100x0&dpr=1&q=100",
+      "img3": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-6.2-1644823784.jpg?dim=100x0&dpr=1&q=100",
+      "Subtitle": "Johnson'S store",
+      
+      "price": "190",
+      "discount": "24",
+      "payment": "143",
+      "category": "health-care",
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
       "id": 7,
       "image": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1631190559/rvyf5omo1yvxdyz0uc3v.jpg",
       "title": "Zandu Papaya Leaf Extract Tablet",
@@ -60,6 +77,22 @@
         "count": 430
       },
       "category": "zandu"
+    },
+    {
+      "id":12,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-2-1649766769.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Plum Bodylovin Tropical Tango Shower Gel - 240 Ml",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-6.1-1649766994.jpg?dim=100x0&dpr=1&q=100",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-6.5-1649766683.jpg?dim=100x0&dpr=1&q=100",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-6.3-1649766762.jpg",
+      "subtitle":"Plum Store",
+      "price":"380",
+      "discount":"20",
+      "payment":"190",
+      "category":"health-care",
+      "rating":{
+        "rate":3.5
+      }
     },
     {
       "id": 8,
@@ -86,9 +119,9 @@
       "image": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1600249252/cropped/s6tvhxojkskkbyezmlac.png",
       "title": "Zandu Sona Chandi Chyawanplus with Boro Plus Free",
       "Subtitle": "Zandu Pharmaceutical Works Ltd",
-      "line1": "It has the goodness of 71 herbs",
-      "line2": "Helps in improving strength and stamina",
-      "line3": "Helps to boosts the immune system",
+      "img1": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1600249252/cropped/s6tvhxojkskkbyezmlac.png",
+      "img2": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1600249252/cropped/s6tvhxojkskkbyezmlac.png",
+      "img3": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1600249252/cropped/s6tvhxojkskkbyezmlac.png",
       "form": "jar",
       "price": "185",
       "discount": "16",
@@ -97,6 +130,22 @@
       "rating": {
         "rate": 4.6,
         "count": 400
+      }
+    },
+    {
+      "id":13,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/Z33333/baidyanath-nagpur-mahabhringraj-tel-for-hair-growth-anti-dandruff-50-ml-pack-of-2-2-1654090513.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Baidyanath Nagpur Mahabhringraj Tel | For Hair Growth | Anti Dandruff | 50 Ml (Pack Of 2)",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/Z33333/baidyanath-nagpur-mahabhringraj-tel-for-hair-growth-anti-dandruff-50-ml-pack-of-2-6.1-1654090628.jpg?dim=100x0&dpr=1&q=100",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/Z33333/baidyanath-nagpur-mahabhringraj-tel-for-hair-growth-anti-dandruff-50-ml-pack-of-2-6.2-1654090515.jpg?dim=100x0&dpr=1&q=100",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/Z33333/baidyanath-nagpur-mahabhringraj-tel-for-hair-growth-anti-dandruff-50-ml-pack-of-2-6.3-1654090620.jpg?dim=100x0&dpr=1&q=100",
+      "subtitle":"Baidyanath Store",
+      "price":"186",
+      "discount":"3",
+      "payment":"180",
+      "category":"health-care",
+      "rating":{
+        "rate":4.5
       }
     },
     {
@@ -123,23 +172,35 @@
       }
     },
     {
-      "id": 5,
-      "image": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1638262723/xcdbd57laikhblncj9vq.jpg",
-      "title": "Zandu Nityam Churna",
-      "img1": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1638262208/ddc4dhawddxtkj8cxypl.jpg",
-      "img2": "https://onemg.gumlet.io/image/upload/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1638262598/sklxt5laubyr3sdsrrd0.jpg",
-      "Subtitle": "Zandu Pharmaceutical Works Ltd",
-      "line1": "Lowers cholesterol and treats Indigestion",
-      "line2": "Helps to boosts the immune system",
-      "line3": "Helps in improving strength and stamina",
-      "form": "bottle",
-      "price": "52",
-      "discount": "2",
-      "payment": "50.96",
-      "category": "zandu",
-      "rating": {
-        "rate": 3,
-        "count": 29
+      "id":14,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-2-1641793498.jpg?dim=320x320&dpr=1&q=100",
+      "title":"The Bath Store French Rose Body Yogurt 200gm",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-6.1-1641793483.jpg",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-6.2-1641793487.jpg",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-6.3-1641793494.jpg",
+      "subtitle":"The Bath Store ",
+      "price":"500",
+      "discount":"0.1",
+      "payment":"501",
+      "category":"health-care",
+      "rating":{
+        "rate":4.5
+      }
+    },
+    {
+      "id":15,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.2-1645786155.jpg",
+      "title":"Venusia Max Intensive Moisturizing Lotion, Repairs Dry Skin, Provides Soft & Smooth Skin, 300gm",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.1-1645786158.jpg",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.2-1645786155.jpg",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.4-1645786253.jpg",
+      "subtitle":"Venusia Store",
+      "price":"605",
+      "discount":"26",
+      "payment":"445",
+      "category":"health-care",
+      "rating":{
+        "rate":3.5
       }
     },
     {
@@ -162,6 +223,22 @@
       "rating": {
         "rate": 4,
         "count": 29
+      }
+    },
+    {
+      "id":16,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-2-1654078395.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Venusia Max Intensive Moisturizing Cream, For Dry To Very Dry Skin, Repairs & Smoothens Skin, 150g",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-3-1654078750.jpg",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.1-1645786244.jpg",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.2-1645786283.jpg",
+      "subtitle":"Venusia Store",
+      "price":"504",
+      "discount":"24",
+      "payment":"388",
+      "category":"health-care",
+      "rating":{
+        "rate":4.5
       }
     },
     {
@@ -188,6 +265,22 @@
       "category": "zandu"
     },
     {
+      "id":17,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1654233851.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Liveasy Wellness Calcium, Magnesium, Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-3-1654233677.jpg",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.2-1641788942.jpg",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.1-1654233865.jpg",
+      "subtitle":"Liveasy Store",
+      "price":"599",
+      "discount":"10",
+      "payment":"539",
+      "category":"health-care",
+      "rating":{
+        "rate":3.5
+      }
+    },
+    {
       "id": 9,
       "image": "https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1600149703/cropped/nouyyqvekp7gqipbuoae.jpg",
       "title": "Zandu Lalima Blood and Skin Purifier Syrup",
@@ -200,11 +293,27 @@
       "form": "bottle",
       "price": "60",
       "discount": "2",
-      "payment": "58.8",
+      "payment": "588",
       "category": "zandu",
       "rating": {
         "rate": 3,
         "count": 29
+      }
+    },
+    {
+      "id":18,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Revital H Men Multivitamin With Calcium, Zinc & Ginseng For Immunity, Strong Bones & Energy (30 Capsules)",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-3-1654078581.jpg",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.1-1641398821.jpg",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.2-1641398805.jpg",
+      "subtitle":" Revital store",
+      "price":"310",
+      "discount":"15",
+      "payment":"265",
+      "category":"health-care",
+      "rating":{
+        "rate":4.8
       }
     },
     {
@@ -228,6 +337,38 @@
       "rating": {
         "rate": 4,
         "count": 29
+      }
+    },
+    {
+      "id":19,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1654234192.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Everherb (By Pharmeasy) Ashwagandha - Immunity Booster Capsules - Anxiety & Stress Relief - Bottle Of 60",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.1-1653130502.jpg",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.3-1653130503.jpg",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.5-1653130469.jpg",
+      "subtitle":"Everherb Store",
+      "price":"599",
+      "discount":"10",
+      "payment":"531",
+      "category":"health-care",
+      "rating":{
+        "rate":4
+      }
+    },
+    {
+      "id":0,
+      "image":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+      "title":"Himalaya Purifying Neem Face Wash 150ml",
+      "img1":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+      "img2":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+      "img3":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+      "subtitle":"Himalaya Store",
+      "price":"170",
+      "discount":"15",
+      "payment":"145",
+      "category":"health-care",
+      "rating":{
+        "rate":3.8
       }
     }
   ],
@@ -345,7 +486,7 @@
       "form": "bottle",
       "price": "52",
       "discount": "2",
-      "payment": "50.96",
+      "payment": "56",
       "category": "zandu",
       "rating": {
         "rate": 3,
@@ -410,7 +551,7 @@
       "form": "bottle",
       "price": "60",
       "discount": "2",
-      "payment": "58.8",
+      "payment": "58",
       "category": "zandu",
       "rating": {
         "rate": 3,
@@ -719,5 +860,193 @@
       "description":"You might have seen a plant that looks prickly on the outside but is soft and mushy on the inside, like many of us. Here, we are talking about Aloe vera. It is a cactus-like..."
     }
    
-  ]
+  ],
+
+
+"healthCare":[
+  {
+    "id": 1,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-2-1644823780.jpg?dim=320x320&dpr=1&q=100",
+    "title": "Johnson'S Baby Cotton Buds - 75 Stems/150 Swabs",
+    "img1": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-2-1644823780.jpg?dim=100x0&dpr=1&q=100",
+    "img2": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-6.1-1644823782.jpg?dim=100x0&dpr=1&q=100",
+    "img3": "https://cdn01.pharmeasy.in/dam/products_otc/B34401/johnsons-baby-cotton-buds-150s-6.2-1644823784.jpg?dim=100x0&dpr=1&q=100",
+    "Subtitle": "Johnson'S store",
+    
+    "price": "190",
+    "discount": "24",
+    "payment": "143",
+    "category": "health-care",
+    "rating": {
+      "rate": 4.7
+    }
+  },
+  {
+    "id":2,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-2-1649766769.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Plum Bodylovin Tropical Tango Shower Gel - 240 Ml",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-6.1-1649766994.jpg?dim=100x0&dpr=1&q=100",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-6.5-1649766683.jpg?dim=100x0&dpr=1&q=100",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/T70281/plum-bodylovin-tropical-tango-shower-gel-240-ml-6.3-1649766762.jpg",
+    "subtitle":"Plum Store",
+    "price":"380",
+    "discount":"20",
+    "payment":"190",
+    "category":"health-care",
+    "rating":{
+      "rate":3.5
+    }
+  },
+  {
+    "id":3,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/Z33333/baidyanath-nagpur-mahabhringraj-tel-for-hair-growth-anti-dandruff-50-ml-pack-of-2-2-1654090513.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Baidyanath Nagpur Mahabhringraj Tel | For Hair Growth | Anti Dandruff | 50 Ml (Pack Of 2)",
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "subtitle":"Baidyanath Store",
+    "price":"186",
+    "discount":"3",
+    "payment":"180",
+    "category":"health-care",
+    "rating":{
+      "rate":4.5
+    }
+  },
+  {
+    "id":4,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-2-1641793498.jpg?dim=320x320&dpr=1&q=100",
+    "title":"The Bath Store French Rose Body Yogurt 200gm",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-6.1-1641793483.jpg",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-6.2-1641793487.jpg",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/L05581/the-bath-store-french-rose-body-yogurt-200gm-6.3-1641793494.jpg",
+    "subtitle":"The Bath Store ",
+    "price":"500",
+    "discount":"0.1",
+    "payment":"501",
+    "category":"health-care",
+    "rating":{
+      "rate":4.5
+    }
+  },
+  {
+    "id":5,
+    "image":"",
+    "title":"Venusia Max Intensive Moisturizing Lotion, Repairs Dry Skin, Provides Soft & Smooth Skin, 300gm",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.1-1645786158.jpg",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.2-1645786155.jpg",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.4-1645786253.jpg",
+    "subtitle":"Venusia Store",
+    "price":"605",
+    "discount":"26",
+    "payment":"445",
+    "category":"health-care",
+    "rating":{
+      "rate":3.5
+    }
+  },
+  {
+    "id":6,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-2-1654078395.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Venusia Max Intensive Moisturizing Cream, For Dry To Very Dry Skin, Repairs & Smoothens Skin, 150g",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-3-1654078750.jpg",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.1-1645786244.jpg",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.2-1645786283.jpg",
+    "subtitle":"Venusia Store",
+    "price":"504",
+    "discount":"24",
+    "payment":"388",
+    "category":"health-care",
+    "rating":{
+      "rate":4.5
+    }
+  },
+  {
+    "id":7,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1654233851.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Liveasy Wellness Calcium, Magnesium, Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-3-1654233677.jpg",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.2-1641788942.jpg",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.1-1654233865.jpg",
+    "subtitle":"Liveasy Store",
+    "price":"599",
+    "discount":"10",
+    "payment":"539",
+    "category":"health-care",
+    "rating":{
+      "rate":3.5
+    }
+  },
+  {
+    "id":8,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Revital H Men Multivitamin With Calcium, Zinc & Ginseng For Immunity, Strong Bones & Energy (30 Capsules)",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-3-1654078581.jpg",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.1-1641398821.jpg",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.2-1641398805.jpg",
+    "subtitle":" Revital store",
+    "price":"310",
+    "discount":"15",
+    "payment":"263.5",
+    "category":"health-care",
+    "rating":{
+      "rate":4.8
+    }
+  },
+  {
+    "id":9,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1654234192.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Everherb (By Pharmeasy) Ashwagandha - Immunity Booster Capsules - Anxiety & Stress Relief - Bottle Of 60",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.1-1653130502.jpg",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.3-1653130503.jpg",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.5-1653130469.jpg",
+    "subtitle":"Everherb Store",
+    "price":"599",
+    "discount":"10",
+    "payment":"539.1",
+    "category":"health-care",
+    "rating":{
+      "rate":4
+    }
+  },
+  {
+    "id":10,
+    "image":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+    "title":"Himalaya Purifying Neem Face Wash 150ml",
+    "img1":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+    "img2":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+    "img3":"https://cdn01.pharmeasy.in/dam/products_otc/I35289/himalaya-purifying-neem-face-wash-150ml-2-1654166459.jpg?dim=320x320&dpr=1&q=100",
+    "subtitle":"Himalaya Store",
+    "price":"170",
+    "discount":"15",
+    "payment":"144.5",
+    "category":"health-care",
+    "rating":{
+      "rate":3.8
+    }
+  },
+  {
+    "id":2,
+    "image":"",
+    "title":"",
+    "img1":"",
+    "img2":"",
+    "img3":"",
+    "subtitle":"",
+    "price":"",
+    "discount":"",
+    "payment":"",
+    "category":"health-care",
+    "rating":{
+      "rate":3.5
+    }
+  }
+]
+
+
+
+
+
+
+
 }

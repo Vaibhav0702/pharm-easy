@@ -16,6 +16,9 @@ import {
   FETCH_DATA_FAILURE,
   FETCH_DATA_REQUEST,
   FETCH_DATA_SUCCESS,
+  FETCH_OffersDATA_FAILURE,
+  FETCH_OffersDATA_REQUEST,
+  FETCH_OffersDATA_SUCCESS,
   FETCH_ORDERS_FAILURE,
   FETCH_ORDERS_REQUEST,
   FETCH_ORDERS_SUCCESS,
@@ -65,6 +68,45 @@ const fetchData = (payload) => {
       })
       .then((res) => dispatch(fetchDataSuccess(res.data)))
       .catch((err) => dispatch(fetchDataFailure(err.data)));
+  };
+};
+// ---------------get Offers data ---------
+
+
+
+const fetchOffersDataRequest = (payload) => {
+  return {
+    type: FETCH_OffersDATA_REQUEST,
+    payload,
+  };
+};
+
+const fetchOffersDataSuccess = (payload) => {
+  return {
+    type: FETCH_OffersDATA_SUCCESS,
+    payload,
+  };
+};
+
+const fetchOffersDataFailure = (payload) => {
+  return {
+    type: FETCH_OffersDATA_FAILURE,
+    payload,
+  };
+};
+
+const fetchOffersData = (payload) => {
+  return (dispatch) => {
+    dispatch(fetchOffersDataRequest());
+
+    axios
+      .get("/offersForYou", {
+        params: {
+          ...payload,
+        },
+      })
+      .then((res) => dispatch(fetchOffersDataSuccess(res.data)))
+      .catch((err) => dispatch(fetchOffersDataFailure(err.data)));
   };
 };
 
@@ -326,4 +368,5 @@ export {
   addOrder,
   emptyCart,
   fetchOrder,
+  fetchOffersData,
 };

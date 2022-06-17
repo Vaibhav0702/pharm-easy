@@ -8,6 +8,9 @@ import {
   FETCH_DATA_FAILURE,
   FETCH_DATA_REQUEST,
   FETCH_DATA_SUCCESS,
+  FETCH_OffersDATA_FAILURE,
+  FETCH_OffersDATA_REQUEST,
+  FETCH_OffersDATA_SUCCESS,
   FETCH_ORDERS_FAILURE,
   FETCH_ORDERS_REQUEST,
   FETCH_ORDERS_SUCCESS,
@@ -25,6 +28,7 @@ const init = {
   currentProduct: {},
   cart: [],
   orders: [],
+  myOffers:[],
 };
 
 const productReducer = (state = init, action) => {
@@ -55,6 +59,40 @@ const productReducer = (state = init, action) => {
         loading: false,
       };
     }
+
+
+
+    case FETCH_OffersDATA_REQUEST: {
+      return {
+        ...state,
+        error: "",
+        loading: true,
+      };
+    }
+
+    case FETCH_OffersDATA_SUCCESS: {
+      return {
+        ...state,
+        myOffers: payload,
+        error: "",
+        loading: false,
+      };
+    }
+
+    case FETCH_OffersDATA_FAILURE: {
+      return {
+        ...state,
+        error: payload,
+        loading: false,
+      };
+    }
+
+
+
+
+
+
+
 
     case GET_SINGLE_PRODUCT_REQUEST: {
       return {
