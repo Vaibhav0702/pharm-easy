@@ -1,5 +1,4 @@
 {
-
   "cart": [],
   "orders": [
     {
@@ -232,7 +231,6 @@
       }
     }
   ],
-
   "zandu": [
     {
       "id": 4,
@@ -443,112 +441,283 @@
       }
     }
   ],
-  "featuredBrands":[
-
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/93dac6224e1-web.jpg?dim=146x0&dpr=1&q=100",
-          "id":1
-       },
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg?dim=146x0&dpr=1&q=100",
-          "id":2
-       },
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/f7a36c06aed-web_Dettol.jpg?dim=146x0&dpr=1&q=100",
-          "id":3
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1&q=100",
-          "id":4
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/c72feb4bd7a-web_Huggies.jpg?dim=146x0&dpr=1&q=100",
-          "id":5
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/fee433dea2d-web.jpg?dim=146x0&dpr=1&q=100",
-          "id":6
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=1&q=100",
-          "id":7
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png?dim=146x0&dpr=1&q=100",
-          "id":8
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/7e5e174fdfb-OneTouchWeb.jpg?dim=146x0&dpr=1&q=100",
-          "id":9
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/db82ec1a424-web_Curatio.jpg?dim=146x0&dpr=1&q=100",
-          "id":10
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/7fdd90400a1-Featured-banner-Hansaplast-web.png?dim=146x0&dpr=1&q=100",
-          "id":11
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/93092a81f8d-Featured-banner_Digine.jpg?dim=146x0&dpr=1&q=100",
-          "id":12
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/6beabc4b6ed-web_Accusure.jpg?dim=146x0&dpr=1&q=100",
-          "id":13
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/0e3affec097-The_Natural_Wash_Dweb.jpg?dim=146x0&dpr=1&q=100",
-          "id":14
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/f8493a13be2-web_Pigeon.jpg?dim=146x0&dpr=1&q=100",
-          "id":15
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/0845572266f-Everherb.jpg?dim=146x0&dpr=1&q=100",
-          "id":16
-       }
-
-       ,
-       {
-          "image":"https://cms-contents.pharmeasy.in/carousel_item/22256dfc61d-web_Themomosco.jpg?dim=146x0&dpr=1&q=100",
-          "id":17
-       }
-
-
-  ],
-  "offersForYou":[
+  "featuredBrands": [
     {
-        "image":"https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=60x0&dpr=1&q=100",
-        "title":"Flat 30% off + FREE Plus Membership Flat 30% off + FREE plus membership on purchase of Diabetic, Cardiac & Gastro medicines & health products.",
-        "code":"GRAND30"
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/93dac6224e1-web.jpg?dim=146x0&dpr=1&q=100",
+      "id": 1
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg?dim=146x0&dpr=1&q=100",
+      "id": 2
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/f7a36c06aed-web_Dettol.jpg?dim=146x0&dpr=1&q=100",
+      "id": 3
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1&q=100",
+      "id": 4
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/c72feb4bd7a-web_Huggies.jpg?dim=146x0&dpr=1&q=100",
+      "id": 5
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/fee433dea2d-web.jpg?dim=146x0&dpr=1&q=100",
+      "id": 6
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=1&q=100",
+      "id": 7
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png?dim=146x0&dpr=1&q=100",
+      "id": 8
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/7e5e174fdfb-OneTouchWeb.jpg?dim=146x0&dpr=1&q=100",
+      "id": 9
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/db82ec1a424-web_Curatio.jpg?dim=146x0&dpr=1&q=100",
+      "id": 10
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/7fdd90400a1-Featured-banner-Hansaplast-web.png?dim=146x0&dpr=1&q=100",
+      "id": 11
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/93092a81f8d-Featured-banner_Digine.jpg?dim=146x0&dpr=1&q=100",
+      "id": 12
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/6beabc4b6ed-web_Accusure.jpg?dim=146x0&dpr=1&q=100",
+      "id": 13
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/0e3affec097-The_Natural_Wash_Dweb.jpg?dim=146x0&dpr=1&q=100",
+      "id": 14
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/f8493a13be2-web_Pigeon.jpg?dim=146x0&dpr=1&q=100",
+      "id": 15
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/0845572266f-Everherb.jpg?dim=146x0&dpr=1&q=100",
+      "id": 16
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/carousel_item/22256dfc61d-web_Themomosco.jpg?dim=146x0&dpr=1&q=100",
+      "id": 17
     }
+  ],
+  "offersForYou": [
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=60x0&dpr=1&q=100",
+      "title": "Flat 30% off + FREE Plus Membership Flat 30% off + FREE plus membership on purchase of Diabetic, Cardiac & Gastro medicines & health products.",
+      "code": "GRAND30",
+      "id": 1
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/6e091f6c840-Father_day_Logo.jpg?dim=60x0&dpr=1&q=100",
+      "title": "Father's Day Sale is LIVE! Get FLAT 10% off during Father's day Sale on Healthcare Products on orders above 1000",
+      "code": "FATH10",
+      "id": 2
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/81308cc59b5-FLAT_20.jpg",
+      "title": "Flat 20% OFF + up to Rs.1000 surprise cashback Flat 20% OFF + up to Rs.1000 surprise cashback on your first medicine order. Hurry! Order now, offer valid only on cart value above Rs.999",
+      "code": "MEGA20",
+      "id": 3
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/2846076d5d2-Diagnostics-10-min.png",
+      "title": "Order medicines and get FLAT 400 OFF on Comprehensive Full Body checkup with Vitamin D and B12.",
+      "code": "CARE4U",
+      "id": 4
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/16080f30d6a-1.jpg",
+      "title": "Get flat 23% off on Medicine + Get 3 live Byju’s online classes at Rs 299.",
+      "code": "PBYJUS23",
+      "id": 5
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/bb20b7c6548-2.jpg",
+      "title": "Get flat 23% off on medicine + Get 15% upto Rs.200 Instant Discount + Flat Rs.300 AbhiBus Cashback",
+      "code": "PABUS23",
+      "id": 6
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/dceebedd00f-Diagnostics-09-min.png",
+      "title": "Get FLAT Rs.600 cashback on PharmEasy Labtests booked above Rs.1499.",
+      "code": "CSH600",
+      "id": 7
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/b964e016470-Diagnostics-09-min.png",
+      "title": "Get FLAT Rs.400 OFF on orders above Rs 1399.",
+      "code": "WELCOME400",
+      "id": 8
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/beff77d2d65-Diagnostics-11-min.png",
+      "title": "Get FLAT Rs.1000 OFF on booking 2 Comprehensive Full Body checkup with Vitamin D and B12 Packages.",
+      "code": "GRAND1000",
+      "id": 9
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/999a966ce68-Diagnostics-11-min.png",
+      "title": "Get FLAT Rs.1200 OFF on booking 2 Master Checkup with Cancer & Arthritis Packages.",
+      "code": "GRAND1200",
+      "id": 10
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/f99f81a36bd-1X1_Log_PE.png",
+      "title": "Get a health checkup and FREE doctor consultation. Use code FREECONSULT.",
+      "code": "FREECONSULT",
+      "id": 11
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/abfb3b37d6a-ease.jpg",
+      "title": "Get flat 25% discount to new users(Minimum Order Value-899) + Easy my trip discount upto Rs.1000",
+      "code": "EASE25",
+      "id": 12
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/e11270f3e3f-paytmcashbackoptimized.png",
+      "title": "Valid once per user on transactions above ₹600.",
+      "code": "No Code Required",
+      "id": 13
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/offer/79c9e323814-AMAZON.jpg",
+      "title": "Offer valid on transactions above ₹100.",
+      "code": "No code required",
+      "id": 14
+    }
+  ],
+  "healthArtical": [
+    {
+      "image": "https://blog-images.pharmeasy.in/2022/06/16155731/6-2.jpg",
+      "id": 1,
+      "title": "Foods To Eat And Avoid With Varicocele",
+      "description": "Table of Contents 9 Best foods that are good for a person with varicoceleFoods to avoid with varicoceleVaricocele-friendly..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/03/21110708/7Blog-Image-1.jpg?dim=0x230&dpr=1&q=100",
+      "id":2,
+      "title":"Sitopaladi Churna: Uses, Benefits, Side Effects & More!",
+      "description":"Sitopaladi churna is an Ayurvedic preparation used to treat digestive problems and various respiratory diseases. Sitopaladi churna helps balance the kapha and pitta..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/01/24133600/Munakka.jpg",
+      "id":3,
+      "title":"Munakka: Benefits, Side Effects, Precautions and More!",
+      "description":"Munakka, also called black grape raisins in English, is a fruit with immense medicinal value. The leaves, seed, skin of Munakka and the..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/02/14201948/13Blog-Image.jpg",
+      "id":4,
+      "title":"Kanchanar Guggulu: Benefits, Side Effects, Precautions & More!",
+      "description":"Kachnar tree (Bauhinia variegata) is a deciduous tree native to India and China. In India, it is widely found in Assam, central, eastern and south India. The bark of this tree..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/01/19124141/Nagkesar.jpg",
+      "id":5,
+      "title":"Nagkesar – Benefits, Uses, Side Effects & More!",
+      "description":"Mesua ferrea Linn, also known as Nagkesar in Hindi, and Ceylon ironwood in English is a tree with high medicinal and ornamental value..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/01/28111526/Ashokarishta.jpg",
+      "id":6,
+      "title":"Ashokarishta: Uses, Benefits, Side Effects, Precautions & More!",
+      "description":"Extract from the bark of the Ashoka tree is obtained and made into a decoction. Other medicinal herbs are then processed with this decoction and left to ferment naturally to..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/01/20141021/Amaltas.jpg",
+      "id":7,
+      "title":"Amaltas – Uses, Benefits, Side Effects & More!",
+      "description":"Amaltas, also known as Cassia fistula or Golden shower tree is a popular herb in Ayurvedic medicine known to be useful in a variety of health conditions. This tree has..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/02/08133753/Kaunch-Beej.jpg",
+      "id":8,
+      "title":"Kaunch Beej: Uses, Benefits, Side Effects, Precautions & More!",
+      "description":"Kaunch Beej is the Hindi name of Cowhage or Cowitch. It belongs to the family of legumes and is a good source of protein. The seeds are generally called Magic Velvet..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/02/09151717/jatamansi.jpg",
+      "id":9,
+      "title":"Jatamansi: Uses, Benefits, Precautions & More!",
+      "description":"Jatamansi, known as Nardostachys jatamansi, is a small, rhizomatous perennial herb that belongs to the family Valerianaceae. It grows in moist, steep, rocky, undisturbed..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/02/11131216/kalmegh.jpg",
+      "id":10,
+      "title":"Kalmegh: Uses, Benefits, Side Effects, Precautions & More!",
+      "description":"Andrographis paniculata (Burm.f.) Nees is known as kalmegh in Hindi. It is known to be an important native crop of India and Srilanka.1..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/01/20163208/Sarpagandha.jpg",
+      "id":11,
+      "title":"Sarpagandha – Uses, Benefits, Side Effects, Precautions & More!",
+      "description":"In Sanskrit, Sarpagandha refers to snakeroot as the plant’s root is twisted and resembles a snake. Alkaline reserpine is a compound produced by Sarpagandha which..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/01/28113127/Chandraprabha-vati.jpg",
+      "id":12,
+      "title":"Chandraprabha Vati: Uses, Benefits, Side Effects, Precautions & More!",
+      "description":"This ancient remedy has immense therapeutic value in various health conditions.4 It has extensive therapeutic applications in painful or difficult urination, anemia,..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/14165240/8-2.jpg",
+      "id":13,
+      "title":"Home Remedies That Ease Your Hydrocele",
+      "description":"Have you been experiencing an uncomfortable swelling around your testicles? The chances are that you may have developed hydrocele. For average humans, it is usually..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10173915/17.jpg",
+      "id":14,
+      "title":"Kiwi: Uses, Benefits, Side Effects and More!",
+      "description":"Kiwi is scientifically known as Actinidia deliciosa. It is native to China and originated in the mountain ranges of Chang Kiang valley (Yang Tao) in northern China. Kiwi is also..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10173443/15.jpg",
+      "id":15,
+      "title":"Star Anise: Uses, Benefits, Side Effects and More!",
+      "description":"Star anise, scientifically known as Illicium verum, is an evergreen small, medium-sized tree from the plant family Illiciaceae. The most common species of the Illicium genus..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10172959/3-3.jpg",
+      "id":16,
+      "title":"Saffron: Uses, Benefits, Side Effects and More!",
+      "description":"Saffron, the most expensive spice in the world, is a tiny part of a fragrant flower which smells like honey. Scientifically known as Crocus sativus, it belongs to the family..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10164515/3-2.jpg",
+      "id":17,
+      "title":"Things You Shouldn’t Do Before And After Sex",
+      "description":"A healthy sexual relationship feels great and brings you closer to your partner. Regular intimacy is also beneficial to your mental and physical health. Making love can improve..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10161905/20.jpg",
+      "id":18,
+      "title":"Black Cardamom: Uses, Benefits, Side Effects and More!",
+      "description":"Amomum subulatom Roxburgh, commonly known as large cardamom or black cardamom, is one of the well-known spices. This spice is reported to be originated from..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10153700/2-3.jpg",
+      "id":19,
+      "title":"Baby Hygiene: Everything You Should Know",
+      "description":"Not just bathing your baby every day, you must regularly trim a baby’s nails as part of hygiene. Use a nail clipper or a pair of tiny baby scissors to cut your baby’s delicate..."
+    },
+    {
+      "image":"https://blog-images.pharmeasy.in/2022/06/10110613/19.jpg",
+      "id":20,
+      "title":"Aloe Vera Juice: Uses, Benefits, Side Effects and More!",
+      "description":"You might have seen a plant that looks prickly on the outside but is soft and mushy on the inside, like many of us. Here, we are talking about Aloe vera. It is a cactus-like..."
+    }
+   
   ]
 }
