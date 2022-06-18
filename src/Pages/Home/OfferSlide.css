@@ -1,0 +1,36 @@
+
+.oupper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+
+.oupperL{
+    display: flex;
+}
+
+.OfferBox{
+    border: 1px solid gray;
+    padding: 20px;
+
+    display: flex;
+    
+ 
+    border-radius: 10px;
+   
+    gap:20px ;
+    margin:10px ;
+   
+}
+
+.Oimg{
+    width: 20%;
+}
+
+.textD{
+    width: 80%;
+    height: 60px;
+    color: gray;
+}

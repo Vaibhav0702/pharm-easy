@@ -10,6 +10,9 @@ import {
   EMPTY_CART_FAILURE,
   EMPTY_CART_REQUEST,
   EMPTY_CART_SUCCESS,
+  FETCH_BrandsDATA_FAILURE,
+  FETCH_BrandsDATA_REQUEST,
+  FETCH_BrandsDATA_SUCCESS,
   FETCH_CART_FAILURE,
   FETCH_CART_REQUEST,
   FETCH_CART_SUCCESS,
@@ -109,6 +112,47 @@ const fetchOffersData = (payload) => {
       .catch((err) => dispatch(fetchOffersDataFailure(err.data)));
   };
 };
+
+
+// --------------------get brands data----------
+
+
+const fetchBrandsDataRequest = (payload) => {
+  return {
+    type: FETCH_BrandsDATA_REQUEST,
+    payload,
+  };
+};
+
+const fetchBrandsDataSuccess = (payload) => {
+  return {
+    type: FETCH_BrandsDATA_SUCCESS,
+    payload,
+  };
+};
+
+const fetchBrandsDataFailure = (payload) => {
+  return {
+    type: FETCH_BrandsDATA_FAILURE,
+    payload,
+  };
+};
+
+const fetchBrandsData = (payload) => {
+  return (dispatch) => {
+    dispatch(fetchBrandsDataRequest());
+
+    axios
+      .get("/featuredBrands", {
+        params: {
+          ...payload,
+        },
+      })
+      .then((res) => dispatch(fetchBrandsDataSuccess(res.data)))
+      .catch((err) => dispatch(fetchBrandsDataFailure(err.data)));
+  };
+};
+
 
 // ----------------------get single product details
 
@@ -369,4 +413,5 @@ export {
   emptyCart,
   fetchOrder,
   fetchOffersData,
+  fetchBrandsData 
 };

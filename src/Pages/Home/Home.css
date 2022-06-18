@@ -1,0 +1,15 @@
+
+
+
+
+.offerContainer{
+    border: 1px solid red;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.BrandContainer{
+    border: 1px solid blue;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}

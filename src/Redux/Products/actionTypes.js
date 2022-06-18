@@ -12,6 +12,21 @@ export const FETCH_OffersDATA_SUCCESS = "FETCH_OffersDATA_SUCCESS";
 export const FETCH_OffersDATA_FAILURE = "FETCH_OffersDATA_FAILURE";
 
 
+export const FETCH_BrandsDATA_REQUEST = "FETCH_BrandsDATA_REQUEST";
+
+export const FETCH_BrandsDATA_SUCCESS = "FETCH_BrandsDATA_SUCCESS";
+
+export const FETCH_BrandsDATA_FAILURE = "FETCH_BrandsDATA_FAILURE";
+
+
+
+export const FETCH_ArticalsDATA_REQUEST = "FETCH__ArticalsDATA_REQUEST";
+
+export const FETCH__ArticalsDATA_SUCCESS = "FETCH__ArticalsDATA_SUCCESS";
+
+export const FETCH__ArticalsDATA_FAILURE = "FETCH__ArticalsDATA_FAILURE";
+
+
 export const GET_SINGLE_PRODUCT_REQUEST = "GET_SINGLE_PRODUCT_REQUEST";
 
 export const GET_SINGLE_PRODUCT_SUCCESS = "GET_SINGLE_PRODUCT_SUCCESS";
