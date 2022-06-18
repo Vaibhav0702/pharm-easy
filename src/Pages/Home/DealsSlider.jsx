@@ -56,16 +56,19 @@ const DealsSlider = ({ title, products }) => {
 
                         <div><img src="https://assets.pharmeasy.in/web-assets/dist/cc9b301d.svg" alt="" /></div>
 
-                        <p style={{ color: "gray", margin: "10px", fontWeight: "bold", fontSize: "20px" }}> Deals of the Day </p>
+                        <div className='timer'>
 
-                       <p style={{ color: "#f87c61 ", margin: "11px", fontWeight: "bold", fontSize: "20px" }}   > |          <Countdown date={Date.now() + 5000000} />   left </p>
-                       
-                   
+                            <p className='timerp1'> Deals of the Day </p>
+
+                            <p className='timerp2'   > | <Countdown date={Date.now() + 5000000} />   left </p>
+                        </div>
+
+
                     </div>
 
                     <NavLink to="/products"   >
 
-                        <div>
+                        <div className='view'>
                             <p style={{ color: "#10847e", margin: "10px", fontWeight: "bold", fontSize: "20px" }} >  View All </p>
                         </div>
 

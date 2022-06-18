@@ -120,10 +120,25 @@
 }
 
 
+.timer{
+    display: flex;
+}
 
+.timerp1{
+    color: gray;
+     margin: 10px;
+      font-weight: bold;
+       font-size: 20px;
+}
 
+.timerp2{
 
+    color: #f87c61;
+    margin: 11px;
+     font-weight: bold;
+      font-size: 20px;
 
+}
 
 
 
@@ -140,4 +155,24 @@
         object-fit: cover;
         height: 120px;
     }
+    .view{
+        display: none;
+    }
+   
+    .timerp1{
+        color: gray;
+         margin: 10px;
+          font-weight: bold;
+           font-size: 18px;
+    }
+    
+    .timerp2{
+    
+        color: #f87c61;
+        margin: 10px;
+         font-weight: bold;
+          font-size: 18px;
+    
+    }
+ 
 }
