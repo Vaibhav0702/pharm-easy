@@ -68,7 +68,7 @@ export default function ProductSimple({ id, image, title, price, payment , disco
                                             MRP ₹{price}
                                         </Text>
 
-                                        <Badge variant='solid' colorScheme='red'>{discount} % OFF   </Badge>
+                                        <Badge variant='solid' backgroundColor='#f87c61'>{discount} % OFF   </Badge>
 
                                     </Stack>
                                     <Text fontWeight={800} fontSize={'xl'} color={'gray.700'}   >

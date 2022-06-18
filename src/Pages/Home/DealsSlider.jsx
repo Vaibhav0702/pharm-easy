@@ -18,6 +18,8 @@ import { NavLink } from 'react-router-dom';
 
 import { Badge } from "@chakra-ui/react";
 
+import Countdown from 'react-countdown';
+
 
 const responsive = {
     desktop: {
@@ -56,6 +58,9 @@ const DealsSlider = ({ title, products }) => {
 
                         <p style={{ color: "gray", margin: "10px", fontWeight: "bold", fontSize: "20px" }}> Deals of the Day </p>
 
+                       <p style={{ color: "#f87c61 ", margin: "11px", fontWeight: "bold", fontSize: "20px" }}   > |          <Countdown date={Date.now() + 5000000} />   left </p>
+                       
+                   
                     </div>
 
                     <NavLink to="/products"   >
@@ -89,7 +94,7 @@ const DealsSlider = ({ title, products }) => {
 
                                             <p className="products_explore" style={{ textDecoration: 'line-through' }}   > MRP ₹{e.price}</p>
                                             <div>
-                                                <Badge variant='solid' colorScheme='red'>{e.discount} % OFF   </Badge></div>
+                                                <Badge variant='solid' backgroundColor='#f87c61'>{e.discount} % OFF   </Badge></div>
                                         </div>
                                         <p className="products_offer" style={{ color: "grey" }}>Price : ₹{e.payment}</p>
 
