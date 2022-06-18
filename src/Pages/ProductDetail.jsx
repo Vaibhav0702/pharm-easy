@@ -177,6 +177,7 @@ export default function ProductDetail() {
             </Text>
           </Box>
           <Flex>
+            
             {
               Rating({ rating: Number(currentProduct.rating?.rate) })
 
@@ -220,7 +221,7 @@ export default function ProductDetail() {
               mt={8}
               size={'lg'}
               py={'7'}
-              bg={useColorModeValue('gray.900', 'gray.50')}
+              bg={useColorModeValue('#10847e')}
               color={useColorModeValue('white', 'gray.900')}
               textTransform={'uppercase'}
               _hover={{
@@ -235,7 +236,7 @@ export default function ProductDetail() {
             </Button>
           </Link>
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
-            <MdLocalShipping />
+            <MdLocalShipping color='#10847e' />
             <Text>2-3 business days delivery</Text>
           </Stack>
         </Stack>

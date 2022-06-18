@@ -15,6 +15,8 @@ import ArticalSlider from "./ArticalSlider";
 
 
 
+
+
 const Home = () => {
 
   const myOffers = useSelector((store) => store.ecommerceData.myOffers)
@@ -152,7 +154,7 @@ const Home = () => {
 
               </div>
               
-
+        
 
        </div>
 

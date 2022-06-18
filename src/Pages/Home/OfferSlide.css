@@ -33,4 +33,8 @@
     width: 80%;
     height: 60px;
     color: gray;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
 }

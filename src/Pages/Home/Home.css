@@ -3,7 +3,7 @@
 
 
 .offerContainer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-bottom: 30px;
     margin-top: 20px;
 }
@@ -63,7 +63,7 @@
 
 
     .fixedbox{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
        
          display: grid;
     
