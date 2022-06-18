@@ -43,7 +43,7 @@ const Cart = () => {
 
   return (
     <Box>
-      <Heading as="h2" size="xl" textAlign="center"  >Cart</Heading>
+      <Heading as="h2" size="xl" textAlign="center"   >Cart</Heading>
 
       {
         cart.length && cart.map(product => {
@@ -63,7 +63,7 @@ const Cart = () => {
 function CartItem({ title, image, description, price, removeProduct , id }) {
 
   return (
-    <Box border="1px solid red" rounded="lg" width="fit-content" margin="auto" marginBottom="2rem" >
+    <Box border="1px solid #10847e" padding={"20px"} rounded="lg" width="fit-content" margin="auto" marginBottom="2rem" >
 
       <Stack direction={{ base: "column", md: "row" }} justifyContent="center" alignItems={"center"}   >
         <Box height={"300px"} width="300px"
@@ -99,11 +99,11 @@ function CartItem({ title, image, description, price, removeProduct , id }) {
 
         <Box height={"300px"} width="350px"   >
           <Stack p={4} >
-            <Heading as="h3" size="lg"  >{title}</Heading>
+            <Heading as="h3" size="lg"  color={"gray"} >{title}</Heading>
             <Box overflow={"hidden"} whiteSpace="nowrap" textOverflow={"ellipsis"}  >
 
 
-              <Text  > {description} </Text>
+              <Text > {description} </Text>
 
             </Box>
 
@@ -118,7 +118,7 @@ function CartItem({ title, image, description, price, removeProduct , id }) {
 
             </Text>
 
-            <Button variant={"solid"} leftIcon={<DeleteIcon />} onClick={()=> removeProduct(id) }  >Remove</Button>
+            <Button variant={"solid"} color="#10847e"   leftIcon={<DeleteIcon />} onClick={()=> removeProduct(id) }  >Remove</Button>
 
           </Stack>
         </Box>

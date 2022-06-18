@@ -20,17 +20,17 @@ import "./Brandslider.css";
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3,
+        items: 8,
 
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2,
+        breakpoint: { max: 1024, min: 564 },
+        items: 4,
 
     },
     mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
+        breakpoint: { max: 564, min: 0 },
+        items: 2,
 
     }
 };
@@ -38,7 +38,7 @@ const responsive = {
 
 
 
-const BrandSlider = ({ products }) => {
+const BrandSlider = ({ Brands }) => {
 
     return (
 
@@ -61,27 +61,17 @@ const BrandSlider = ({ products }) => {
 
          
 
-                <Carousel   responsive={responsive}  draggable={false}  containerClass="carousel-container" itemClass="carousel-item-padding-40-px" showDots={false} autoPlay={true} dotListClass="custom-dot-list-style" autoPlaySpeed={3000} infinite={true} keyBoardControl={true}>
+                <Carousel   responsive={responsive}  draggable={false}  containerClass="carousel-container" showDots={false} autoPlay={true} dotListClass="custom-dot-list-style" autoPlaySpeed={4000} infinite={true} keyBoardControl={true}>
 
 
                     {
-                        products.map((e) => {
+                        Brands.map((e) => {
                             return (
                                 
                                   <>
 
-                                     <div className='OfferBox'  >
-                                        <div className='Oimg'><img width={"60px"} src={e.image} alt="" /></div>
-
-                                         <div className='textD'>
-                                            
-                                            <p>{e.title}</p>
-                                             
-                                             <p> Code : {e.code}</p>
-
-                                         </div>
-
-
+                                     <div className='BrandBox'  >
+                                        <div className='Bimg'><img width={"150px"} src={e.image} alt="" /></div>
 
                                      </div>
                                   

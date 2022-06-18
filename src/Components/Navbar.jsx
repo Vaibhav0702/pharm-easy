@@ -322,7 +322,17 @@ const Navbar = () => {
 
 
 
+              <Link to="/orders"   >
 
+
+                <div style={{ display: "flex" }}  >
+                  <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="" />
+
+                  <p>My Orders</p>
+                </div>
+
+
+              </Link>
 
 
 

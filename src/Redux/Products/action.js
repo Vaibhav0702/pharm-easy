@@ -10,6 +10,7 @@ import {
   EMPTY_CART_FAILURE,
   EMPTY_CART_REQUEST,
   EMPTY_CART_SUCCESS,
+  FETCH_ArticalsDATA_REQUEST,
   FETCH_BrandsDATA_FAILURE,
   FETCH_BrandsDATA_REQUEST,
   FETCH_BrandsDATA_SUCCESS,
@@ -25,6 +26,8 @@ import {
   FETCH_ORDERS_FAILURE,
   FETCH_ORDERS_REQUEST,
   FETCH_ORDERS_SUCCESS,
+  FETCH__ArticalsDATA_FAILURE,
+  FETCH__ArticalsDATA_SUCCESS,
   GET_SINGLE_PRODUCT_FAILURE,
   GET_SINGLE_PRODUCT_REQUEST,
   GET_SINGLE_PRODUCT_SUCCESS,
@@ -153,6 +156,47 @@ const fetchBrandsData = (payload) => {
   };
 };
 
+
+// --------------------------get Articals data--------
+
+
+
+
+const fetchArticalsDataRequest = (payload) => {
+  return {
+    type: FETCH_ArticalsDATA_REQUEST,
+    payload,
+  };
+};
+
+const fetchArticalsDataSuccess = (payload) => {
+  return {
+    type: FETCH__ArticalsDATA_SUCCESS,
+    payload,
+  };
+};
+
+const fetchArticalsDataFailure = (payload) => {
+  return {
+    type: FETCH__ArticalsDATA_FAILURE,
+    payload,
+  };
+};
+
+const fetchArticalsData = (payload) => {
+  return (dispatch) => {
+    dispatch(fetchArticalsDataRequest());
+
+    axios
+      .get("/healthArtical", {
+        params: {
+          ...payload,
+        },
+      })
+      .then((res) => dispatch(fetchArticalsDataSuccess(res.data)))
+      .catch((err) => dispatch(fetchArticalsDataFailure(err.data)));
+  };
+};
 
 // ----------------------get single product details
 
@@ -413,5 +457,6 @@ export {
   emptyCart,
   fetchOrder,
   fetchOffersData,
-  fetchBrandsData 
+  fetchBrandsData ,
+  fetchArticalsData
 };

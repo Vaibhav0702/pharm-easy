@@ -34,7 +34,7 @@ const Orders = () => {
             {
                 orders.map(product => {
 
-                   return  <ProductSimple  key={product.id}    image={product.image} title={product.title} price={product.price}  />
+                   return  <ProductSimple  key={product.id}  id={product.id}   image={product.image} title={product.title} price={product.price} payment={product.payment} />
                 })
             }
 

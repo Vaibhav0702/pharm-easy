@@ -142,7 +142,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div>
+                    <div style={{marginTop:"20px"}}  >
 
                         <p className='fheading'>Our Payment Partners</p>
 

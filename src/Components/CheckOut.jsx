@@ -29,8 +29,9 @@ export default function CheckOut({ cart, checkOutHandler }) {
                 mt={8}
                 size={'lg'}
                 py={'7'}
-                bg={useColorModeValue('gray.900', 'gray.50')}
+                // bg={useColorModeValue('gray.900', 'gray.50')}
                 color={useColorModeValue('white', 'gray.900')}
+                  backgroundColor={"#10847e"}
                 textTransform={'uppercase'}
                 _hover={{
                     transform: 'translateY(2px)',
@@ -87,7 +88,7 @@ export default function CheckOut({ cart, checkOutHandler }) {
 
                      
 
-                            <Button colorScheme='blue' mr={3} onClick={checkOutHandler}>
+                            <Button    backgroundColor={"#10847e"} color={"white"}   mr={3} onClick={checkOutHandler}>
                                 Confirm
                             </Button>
 

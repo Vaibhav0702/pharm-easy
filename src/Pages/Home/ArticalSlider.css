@@ -1,0 +1,20 @@
+
+
+.ArticalBox{
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding: 10px ;
+}
+
+
+.ArticalBox:hover{
+    /* border: 1px solid red; */
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.Aimg >img{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
