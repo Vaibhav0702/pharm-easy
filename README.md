@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# PharmEasy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aap ki apni pharmasy 😃, PharmEasy is one of India's leading healthcare aggregators and most trusted online medicine delivery app
 
-## Available Scripts
+Individual Projects At Masai School.
 
-In the project directory, you can run:
+**Links for reference :**
 
-### `npm start`
+Repo Link :
+https://github.com/Vaibhav0702/pharm-easy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Netlify Link :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technology We Used:
 
-### `npm run build`
+1. React 
+2. Redux
+3. Json-Server
+4. Chakra UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**About Website :**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Navbar & Landing page**
 
-### `npm run eject`
+![PharmeasyHome](https://user-images.githubusercontent.com/97450767/174476469-1ee7aee8-2b0f-488a-aa96-383f94177fe9.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Pharmeasy landing page](https://user-images.githubusercontent.com/97450767/174476499-0f2ee89a-cb0c-40e7-9a10-f152f0bc336a.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![pharmeasy landing page2](https://user-images.githubusercontent.com/97450767/174476515-2c9017ef-3e2a-4334-adf3-813f7823d972.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+**Product page**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Pharmeasy productpage](https://user-images.githubusercontent.com/97450767/174476542-b0f66a08-7b39-4fad-8a31-acbc39245918.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**ProductDetails page**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Pharmeasy productdetails](https://user-images.githubusercontent.com/97450767/174476562-c239ca0f-7729-484d-9211-efd3d2f68e59.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![pharmProductpage](https://user-images.githubusercontent.com/97450767/174476568-ce2f4907-0216-4ef9-8849-b0c67c383a25.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Cart page**
 
-### Advanced Configuration
+![Pharmeasy cart](https://user-images.githubusercontent.com/97450767/174476603-3d883a04-fd5c-4e65-8b8c-1b11cb5b78da.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+**CheckOut page**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Pharmeasy chackout](https://user-images.githubusercontent.com/97450767/174476623-b77f57e3-ddc3-4a7a-ac4a-34c433a4eecb.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**PharmEasy Footer**
+
+![Pharmeasy footer](https://user-images.githubusercontent.com/97450767/174476633-ad53afc0-0b43-4d25-b3cb-4746fdf3a11b.png)
+
+
+**Responsive Navbar**
+
+![Pharmeasy responsive Sidebar](https://user-images.githubusercontent.com/97450767/174476665-08161078-e266-4b90-a560-9c8748fcbfbd.png)
+
+
+## Instructions to Run the Website
+
+#### Note:
+
+I was created database using Json-Server So, if you want to run my code then please follow the instructions below :
+
+- Clone my repository `https://github.com/Vaibhav0702/pharm-easy`.
+- 1st run command `npm i` in your terminal then run command `npx json-server db.json  --port 8080` to make server live.
+- After that Open Netlify link to see the PharmEasy Website live.
+
