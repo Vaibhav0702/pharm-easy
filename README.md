@@ -1,6 +1,6 @@
 # PharmEasy
 
-Aap ki apni pharmasy 😃, PharmEasy is one of India's leading healthcare aggregators and most trusted online medicine delivery app
+Aapki apni pharmasy 😃, PharmEasy is one of India's leading healthcare aggregators and most trusted online medicine delivery app
 
 Individual Projects At Masai School.
 
