@@ -59,9 +59,9 @@ const BrandSlider = ({ Brands }) => {
                 </div>
 
 
-         
+             
 
-                <Carousel   responsive={responsive}  draggable={false}  containerClass="carousel-container" showDots={false} autoPlay={true} dotListClass="custom-dot-list-style" autoPlaySpeed={4000} infinite={true} keyBoardControl={true}>
+                <Carousel     responsive={responsive}  draggable={false}  containerClass="carousel-container" showDots={false} autoPlay={true} dotListClass="custom-dot-list-style" autoPlaySpeed={4000} infinite={true} keyBoardControl={true}>
 
 
                     {
@@ -96,3 +96,4 @@ const BrandSlider = ({ Brands }) => {
 }
 
 export default BrandSlider;
+
