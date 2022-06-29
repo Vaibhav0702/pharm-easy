@@ -4,15 +4,6 @@ Aapki apni pharmasy 😃, PharmEasy is one of India's leading healthcare aggrega
 
 Individual Projects At Masai School.
 
-**Links for reference :**
-
-Repo Link :
-https://github.com/Vaibhav0702/pharm-easy
-
-Netlify Link :
-https://pharm-easy.netlify.app/
-
-
 # Technology We Used:
 
 1. React 
@@ -70,9 +61,16 @@ https://pharm-easy.netlify.app/
 
 #### Note:
 
-I was created database using Json-Server So, if you want to run my code then please follow the instructions below :
+I was created database using Json-Server and deployed it on heroku and the frontend part of the website is deployed on netlify. you can see the website by clicking on link provided.
 
-- Clone my repository `https://github.com/Vaibhav0702/pharm-easy`.
-- 1st run command `npm i` in your terminal then run command `npx json-server db.json  --port 8080` to make server live.
-- After that Open Netlify link `https://pharm-easy.netlify.app/` to see the PharmEasy Website live.
+**Links for reference :**
+
+Repo Link :
+https://github.com/Vaibhav0702/pharm-easy
+
+Netlify Link :
+https://pharm-easy.netlify.app/
+
+Heroku Link :
+https://dataserverbank.herokuapp.com/
 
