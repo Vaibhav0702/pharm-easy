@@ -32,9 +32,9 @@ Heroku Link :
 https://dataserverbank.herokuapp.com/
 
 
-**About Website :**
+# About Website :
 
-**Navbar & Landing page**
+# Navbar & Landing page
 
 ![PharmeasyHome](https://user-images.githubusercontent.com/97450767/174476469-1ee7aee8-2b0f-488a-aa96-383f94177fe9.png)
 
@@ -44,12 +44,12 @@ https://dataserverbank.herokuapp.com/
 ![pharmeasy landing page2](https://user-images.githubusercontent.com/97450767/174476515-2c9017ef-3e2a-4334-adf3-813f7823d972.png)
 
 
-**Product page**
+# Product page
 
 ![Pharmeasy productpage](https://user-images.githubusercontent.com/97450767/174476542-b0f66a08-7b39-4fad-8a31-acbc39245918.png)
 
 
-**ProductDetails page**
+# ProductDetails page
 
 ![Pharmeasy productdetails](https://user-images.githubusercontent.com/97450767/174476562-c239ca0f-7729-484d-9211-efd3d2f68e59.png)
 
@@ -57,22 +57,22 @@ https://dataserverbank.herokuapp.com/
 ![pharmProductpage](https://user-images.githubusercontent.com/97450767/174476568-ce2f4907-0216-4ef9-8849-b0c67c383a25.png)
 
 
-**Cart page**
+# Cart page
 
 ![Pharmeasy cart](https://user-images.githubusercontent.com/97450767/174476603-3d883a04-fd5c-4e65-8b8c-1b11cb5b78da.png)
 
 
-**CheckOut page**
+# CheckOut page
 
 ![Pharmeasy chackout](https://user-images.githubusercontent.com/97450767/174476623-b77f57e3-ddc3-4a7a-ac4a-34c433a4eecb.png)
 
 
-**PharmEasy Footer**
+# PharmEasy Footer
 
 ![Pharmeasy footer](https://user-images.githubusercontent.com/97450767/174476633-ad53afc0-0b43-4d25-b3cb-4746fdf3a11b.png)
 
 
-**Responsive Navbar**
+# Responsive Navbar
 
 ![Pharmeasy responsive Sidebar](https://user-images.githubusercontent.com/97450767/174476665-08161078-e266-4b90-a560-9c8748fcbfbd.png)
 
