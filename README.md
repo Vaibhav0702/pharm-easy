@@ -4,12 +4,14 @@ Aapki apni pharmasy 😃, PharmEasy is one of India's leading healthcare aggrega
 
 Individual Projects At Masai School.
 
-# Technology We Used:
+# Technology & Tools I Was Used:
 
 1. React 
 2. Redux
 3. Json-Server
 4. Chakra UI
+5. Heroku
+6. Netlify
 
 
 **About Website :**
