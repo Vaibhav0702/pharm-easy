@@ -14,6 +14,24 @@ Individual Projects At Masai School.
 6. Netlify
 
 
+## Instructions to Run the Website
+
+#### Note:
+
+I was created database using Json-Server and deployed it on heroku and the frontend part of the website is deployed on netlify. you can see the website by clicking on link provided.
+
+**Links for reference :**
+
+Repo Link :
+https://github.com/Vaibhav0702/pharm-easy
+
+Netlify Link :
+https://pharm-easy.netlify.app/
+
+Heroku Link :
+https://dataserverbank.herokuapp.com/
+
+
 **About Website :**
 
 **Navbar & Landing page**
@@ -58,21 +76,4 @@ Individual Projects At Masai School.
 
 ![Pharmeasy responsive Sidebar](https://user-images.githubusercontent.com/97450767/174476665-08161078-e266-4b90-a560-9c8748fcbfbd.png)
 
-
-## Instructions to Run the Website
-
-#### Note:
-
-I was created database using Json-Server and deployed it on heroku and the frontend part of the website is deployed on netlify. you can see the website by clicking on link provided.
-
-**Links for reference :**
-
-Repo Link :
-https://github.com/Vaibhav0702/pharm-easy
-
-Netlify Link :
-https://pharm-easy.netlify.app/
-
-Heroku Link :
-https://dataserverbank.herokuapp.com/
 
